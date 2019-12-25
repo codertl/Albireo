@@ -30,7 +30,7 @@ RUN touch /home/Albireo/.config/deluge/auth
 RUN echo ":deluge:10" >> /home/Albireo/.config/deluge/auth
 
 USER root
-RUN pip install -r /home/Albireo/requirements.txt
+RUN pip install -r /home/Albireo/requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 RUN chmod -R 777 /home/Albireo
 
 EXPOSE 5000
