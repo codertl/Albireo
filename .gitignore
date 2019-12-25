@@ -1,4 +1,4 @@
-config/config.yml
+# config/config.yml
 config/sentry.yml
 logfile
 db-start.sh
@@ -6,7 +6,7 @@ db-shutdown.sh
 pgsql
 .DS_Store
 .idea
-alembic.ini
+# alembic.ini
 *.pyc
 .vagrant
 .cache
